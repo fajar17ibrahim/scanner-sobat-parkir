@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Sokir Scanner</string>
     <string name="lakukan">Lakukan scan QR Code Sobat Parkir untuk membuka portal saat masuk dan keluar parkiran.</string>
+    <string name="footer">Sobat Parkir</string>
 </resources>

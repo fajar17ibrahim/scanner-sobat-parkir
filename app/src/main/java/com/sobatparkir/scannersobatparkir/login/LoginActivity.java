@@ -50,12 +50,12 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-//        sharedPreferences = getSharedPreferences(Constans.MY_SHARED_PREFERENCES, Context.MODE_PRIVATE);
-//        session = sharedPreferences.getBoolean(Constans.SESSION, false);
-//        if(session) {
-//            Intent intent = new Intent(this, MainActivity.class);
-//            startActivity(intent);
-//        }
+        sharedPreferences = getSharedPreferences(Constans.MY_SHARED_PREFERENCES, Context.MODE_PRIVATE);
+        session = sharedPreferences.getBoolean(Constans.SESSION, false);
+        if(session) {
+            Intent intent = new Intent(this, MainActivity.class);
+            startActivity(intent);
+        }
 
         mContext = this;
         mApiService = ApiUtils.getAPIService(); // meng-init yang ada di package apihelper

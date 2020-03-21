@@ -14,7 +14,8 @@
         android:theme="@style/AppTheme">
         <activity android:name=".scanner.ScannerActivity"></activity>
         <activity android:name=".MainActivity"></activity>
-        <activity android:name=".login.LoginActivity">
+        <activity android:name=".login.LoginActivity"></activity>
+        <activity android:name=".SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
