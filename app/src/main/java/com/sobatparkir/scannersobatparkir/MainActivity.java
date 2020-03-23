@@ -81,9 +81,6 @@ public class MainActivity extends AppCompatActivity  {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         requestLogOut();
-                        finish();
-                        moveTaskToBack(true);
-                        System.exit(0);
                     }
                 }).setNegativeButton("Tidak", null).show();
     }

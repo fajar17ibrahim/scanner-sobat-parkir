@@ -86,7 +86,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void requestLogin(){
-        mApiService.loginRequest(eUsername.getText().toString(), ePassword.getText().toString())
+        mApiService.loginRequest(eUsername.getText().toString(), ePassword.getText().toString(), 2)
                 .enqueue(new Callback<ResponseBody>() {
                     @Override
                     public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {

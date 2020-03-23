@@ -14,7 +14,8 @@ public interface ApiInterface {
     @FormUrlEncoded
     @POST("auth/login")
     Call<ResponseBody> loginRequest(@Field("username") String username,
-                                    @Field("password") String password);
+                                    @Field("password") String password,
+                                    @Field("role_id") int roleId);
 
     @PUT("order/scan-enter/{qr_code}")
     Call<ResponseBody> enterRequest(@Header("Authorization") String bearer, @Path("qr_code") String qrCode);
