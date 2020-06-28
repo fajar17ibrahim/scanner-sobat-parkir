@@ -5,7 +5,7 @@ import com.sobatparkir.scannersobatparkir.network.ApiInterface;
 
 public class ApiUtils {
 
-    public static final String BASE_URL_API = "http://35.247.145.123:8082/api/v1/";
+    public static final String BASE_URL_API = "http://13.67.54.62:8081/api/v1/";
 
     // Mendeklarasikan Interface ApiInterface
     public static ApiInterface getAPIService(){
