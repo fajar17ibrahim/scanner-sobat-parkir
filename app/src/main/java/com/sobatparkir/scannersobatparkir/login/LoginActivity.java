@@ -122,7 +122,7 @@ public class LoginActivity extends AppCompatActivity {
                                 e.printStackTrace();
                             }
                         } else {
-                            Toast.makeText(mContext, "Login Gagal! Coba lagi", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(mContext, "Login Gagal! Cek username dan password anda!", Toast.LENGTH_SHORT).show();
                             loading.dismiss();
                         }
                     }
